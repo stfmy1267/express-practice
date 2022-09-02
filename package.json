@@ -1,0 +1,25 @@
+{
+  "name": "express-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stfmy1267/express-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stfmy1267/express-practice/issues"
+  },
+  "homepage": "https://github.com/stfmy1267/express-practice#readme",
+  "devDependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
