@@ -2,11 +2,13 @@
 const express = require('express');
 const app = express();
 const PORT = 8080;
+require
+
 const userRouter = require('./routes/user');
 
 // app.use(mylogger)
 
-// app.use(express.static('public'))
+app.use(express.static('src'))
 app.set('view engine','ejs');
 
 app.get("/",(req,res) => {
@@ -14,7 +16,8 @@ app.get("/",(req,res) => {
   // res.send("<h1>こんにちわ</h1>");
   // res.sendStatus(404)
   // res.sendStatus(500).json({'msg':'エラーです'});
-  res.render("index",{text:"Node.js exspress"})
+  // res.render("index",{text:"Node.js exsprss"})
+  // res.sendFile(__dirname + "/index.html")
 })
 
 app.get("/user", (req,res) => {
